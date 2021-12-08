@@ -8,10 +8,9 @@ token=os.getenv('discord_token') #pulls the discord token from a .env file --
 
 # For the bot to launch with this set up, you must have a .env file with the following, excluding quotations "discord_token=DiscordBotTokenGoesHere" 
 
-intents = discord.Intents.default()
-intents.members = True
+intents = discord.Intents.default() #sets default permissions 
 
-client = commands.Bot(command_prefix='!', intents=intents)  #Makes the bot prefix. 
+client = commands.Bot(command_prefix='!')  #Makes the bot prefix. 
 
 @client.event
 async def on_ready():
