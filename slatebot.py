@@ -1,7 +1,7 @@
 import discord #imports discord.py module, allowing use of their API.
 import os #for loading discord token from .env file
 from discord.ext import commands, tasks 
-from dotenv import load_dotenv #for loading dsicord token from .env file
+from dotenv import load_dotenv #for loading discord token from .env file
 
 load_dotenv()
 token=os.getenv('discord_token') #pulls the discord token from a .env file -- 
