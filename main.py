@@ -18,6 +18,6 @@ async def on_ready():
     print(f'{client.user} has connected to Discord!') #prints a confirmation in the terminal that it has connected to discord
     await client.change_presence(activity=discord.Game('Scrabble'))  #sets the bots discord presence, such as playing "Yahtzee". 
     
-client.run(TOKEN)
+client.run(token)
 
     
