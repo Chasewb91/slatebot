@@ -12,4 +12,4 @@ Requires the following python modules:
 
 discord
 
-pythnon-dotenv
+python-dotenv
