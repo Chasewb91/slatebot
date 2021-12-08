@@ -9,5 +9,7 @@ Current version is a bare-bones bot, that connects to discord and displays a pre
 Release V.0.9.0 available -- after download, dont forget to add a .env file containing your discord bot token to the folder. 
 
 Requires the following python modules:
+
 discord
+
 pythnon-dotenv
